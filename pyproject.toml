@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "easyconfig"
+version = "4.0.0"
+description = "This project aims to simplify the process of generating and handling Json Config file"
+authors = ["Vortex5Root"]
+license = "Apachev2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
