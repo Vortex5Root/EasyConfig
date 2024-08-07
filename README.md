@@ -56,7 +56,7 @@ pip install git+https://github.com/Vortex5Root/EasyConfig.git#egg=easyconfig
 
 Click on the following image to go to the Documentation:
 
-<a href=./EasyConfig/DOCUMENTATION.md><img src="./img/wikipedia-svgrepo-com.svg" width=50></a> 
+<a href=./easyconfig/DOCUMENTATION.md><img src="./img/wikipedia-svgrepo-com.svg" width=50></a> 
 
 <h2 align="center">Acknowledgements</h2>
 
