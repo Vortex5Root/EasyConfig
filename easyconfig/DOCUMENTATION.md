@@ -116,7 +116,13 @@ config.get_all_config_names()
 config.set_value("config_name", "key", "value")
 ```
 
-<h3 align="center"> How to save the configurations </h3>
+<h3 align="center"> How to save one the configuration </h3>
+
+```python
+config.save_config("config_name")
+```
+
+<h3 align="center"> How to save all the configurations </h3>
 
 ```python
 config.save_configs()
