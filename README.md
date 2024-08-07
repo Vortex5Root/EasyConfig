@@ -17,11 +17,11 @@
     <a href="https://github.com/Vortex5Root/EasyConfig/commits/master"><img src="https://img.shields.io/github/last-commit/Vortex5Root/EasyConfig.svg" alt="GitHub last commit"></a><br>
 </p>
 
-<h2 align="center"> Introduction </h2>
+<h2 align="center">Introduction</h2>
 
 > This is a simple and easy-to-use configuration library for Python. It is designed to be easy to use and easy to understand. It is also designed to be easy to use with other libraries and frameworks.
 
-<h2 align="center"> Index </h2>
+<h2 align="center">Index</h2>
 
 | Topic | sub-topic |
 | --- | --- |
@@ -67,6 +67,6 @@ Click on the following image to go to the Documentation:
     <a href="https://github.com/PandemicOfNukes"><img src=https://avatars.githubusercontent.com/u/59929476?s=200&v=4 width=50 style="border-radius: 50%;"><br>PandemicOfNukes <br><b>        {Student}</b></a><br><br>
 </p>
 
-<h2 align="center"> Conclusion </h2>
+<h2 align="center">Conclusion</h2>
 
 > This is a simple and easy-to-use configuration library for Python. It is designed to be easy to use and easy to understand. It is also designed to be easy to use with other libraries and frameworks.

@@ -66,7 +66,7 @@ pip install git+https://github.com/Vortex5Root/EasyConfig.git#egg=easyconfig
 
 ------
 
-<h3 align="center"> How to use EasyConfig </h3>
+<h3 align="center">How to use EasyConfig</h3>
 
 ```python
 from easyconfig import Config_Manager
@@ -74,61 +74,61 @@ from easyconfig import Config_Manager
 config = Config_Manager(working_dir="configs") # You can also pass a constume working directory
 ```
 
-<h3 align="center"> How to add a new configuration </h3>
+<h3 align="center">How to add a new configuration>/h3>
 
 ```python
 config.add_config("config_name", {"key": "value"})
 ```
 
-<h3 align="center"> How to remove a configuration </h3>
+<h3 align="center">How to remove a configuration</h3>
 
 ```python
 config.remove_config("config_name")
 ```
 
-<h3 align="center"> How to get a configuration </h3>
+<h3 align="center">How to get a configuration</h3>
 
 ```python
 config.get_config("config_name")
 ```
 
-<h3 align="center"> How to get a value from a configuration </h3>
+<h3 align="center">How to get a value from a configuration</h3>
 
 ```python
 config.get_value("config_name", "key")
 ```
 
-<h3 align="center"> How to get all the configurations </h3>
+<h3 align="center">How to get all the configurations</h3>
 
 ```python
 config.get_all_configs()
 ```
 
-<h3 align="center"> How to get all the configuration names </h3>
+<h3 align="center">How to get all the configuration names</h3>
 
 ```python
 config.get_all_config_names()
 ```
 
-<h3 align="center"> How set a value in a configuration </h3>
+<h3 align="center">How set a value in a configuration</h3>
 
 ```python
 config.set_value("config_name", "key", "value")
 ```
 
-<h3 align="center"> How to save one the configuration </h3>
+<h3 align="center">How to save one the configuration</h3>
 
 ```python
 config.save_config("config_name")
 ```
 
-<h3 align="center"> How to save all the configurations </h3>
+<h3 align="center">How to save all the configurations</h3>
 
 ```python
 config.save_configs()
 ```
 
-<h3 align="center"> How to load the configurations </h3>
+<h3 align="center">How to load the configurations</h3>
 
 ```python
 config.load_configs()
