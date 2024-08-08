@@ -76,7 +76,7 @@ config = Config_Manager(working_dir="configs") # You can also pass a constume wo
 <h3 align="center">How to add a new configuratio</h3>
 
 ```python
-config.add_config("config_name", {"key": "value"})
+config.new_config("config_name", {"key": "value"})
 ```
 
 <h3 align="center">How to remove a configuration</h3>
