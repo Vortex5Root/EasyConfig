@@ -29,7 +29,6 @@
 | [Installation](#installation) | |
 | [Documentation](#documentation) |  |
 | [Acknowledgements](#acknowledgements) | |
-| [Conclusion](#conclusion) | |
 
 
 <h2 align="center">Dependencies</h2>
@@ -66,7 +65,3 @@ Click on the following image to go to the Documentation:
     <br>[Contributor]<br>
     <a href="https://github.com/PandemicOfNukes"><img src=https://avatars.githubusercontent.com/u/59929476?s=200&v=4 width=50 style="border-radius: 50%;"><br>PandemicOfNukes <br><b>        {Student}</b></a><br><br>
 </p>
-
-<h2 align="center">Conclusion</h2>
-
-> This is a simple and easy-to-use configuration library for Python. It is designed to be easy to use and easy to understand. It is also designed to be easy to use with other libraries and frameworks.
