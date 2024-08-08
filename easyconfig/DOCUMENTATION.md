@@ -74,7 +74,7 @@ from easyconfig import Config_Manager
 config = Config_Manager(working_dir="configs") # You can also pass a constume working directory
 ```
 
-<h3 align="center">How to add a new configuration>/h3>
+<h3 align="center">How to add a new configuration</h3>
 
 ```python
 config.add_config("config_name", {"key": "value"})
