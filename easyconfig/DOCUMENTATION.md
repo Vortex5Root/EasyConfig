@@ -39,7 +39,6 @@
 | | [How to save the configurations](#how-to-save-the-configurations) |
 | | [How to load the configurations](#how-to-load-the-configurations) |
 | [Acknowledgements](#acknowledgements) | |
-| [Conclusion](#conclusion) | |
 
 
 <h2 align="center">Dependencies</h2>
@@ -74,7 +73,7 @@ from easyconfig import Config_Manager
 config = Config_Manager(working_dir="configs") # You can also pass a constume working directory
 ```
 
-<h3 align="center">How to add a new configuration</h3>
+<h3 align="center">How to add a new configuratio</h3>
 
 ```python
 config.add_config("config_name", {"key": "value"})
@@ -142,7 +141,3 @@ config.load_configs()
     <br>[Contributor]<br>
     <a href="https://github.com/PandemicOfNukes"><img src=https://avatars.githubusercontent.com/u/59929476?s=200&v=4 width=50 style="border-radius: 50%;"><br>PandemicOfNukes <br><b>        {Student}</b></a><br><br>
 </p>
-
-<h2 align="center"> Conclusion </h2>
-
-> This is a simple and easy-to-use configuration library for Python. It is designed to be easy to use and easy to understand. It is also designed to be easy to use with other libraries and frameworks.
