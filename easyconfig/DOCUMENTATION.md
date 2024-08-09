@@ -19,7 +19,7 @@
 
 <h2 align="center"> Introduction </h2>
 
-> This Documetaion aims to provide a good understanding of the EasyConfig library. It is designed to be easy to use and easy to understand. It is also designed to be easy to use with other libraries and frameworks.
+> This Documetation aims to provide a good understanding of the EasyConfig library. It is designed to be easy to use and easy to understand. It is also designed to be easy to use with other libraries and frameworks.
 
 <h2 align="center"> Index </h2>
 
