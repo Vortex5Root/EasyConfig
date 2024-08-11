@@ -30,6 +30,8 @@ class Config_Manager:
         return config
     
     def get_config(self, config_name: str):
+        if not config_name.endswith('.json'):
+            config_name += '.json'
         if config_name in self.configs:
             return self.configs.get(config_name)
     
