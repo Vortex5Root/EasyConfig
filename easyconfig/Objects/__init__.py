@@ -43,4 +43,8 @@ class Config:
         return str(self.__dict__)
     
     def json(self):
-        return json.dumps(self.__dict__, indent=4)
+        json_dict = {}
+        for key in self.__dict__:
+            if key not in ['path', 'config_name']:
+                json_dict[key] = getattr(self, key)
+        return json_dict
