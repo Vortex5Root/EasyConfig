@@ -61,9 +61,11 @@ class Config_Manager:
     def load_configs(self):
         for file in self.main_path.iterdir():
             if file.is_file() and file.suffix == '.json':
-                config = Config(self.main_path, file.name)
+                file_name = file.name.replace('.json', '')
+                config = Config(self.main_path, file_name)
                 config.load_config()
-                self.configs[file.name] = config
+                self.configs[file_name] = config
+                print(f"Loaded config {file_name}")
 
     def save_config(self, config_name: str):
         if config_name in self.configs:
@@ -72,3 +74,4 @@ class Config_Manager:
     def save_configs(self):
         for key in self.configs:
             self.configs[key].save_config()
+
