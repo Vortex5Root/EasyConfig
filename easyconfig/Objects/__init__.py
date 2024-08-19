@@ -37,7 +37,10 @@ class Config:
             f.write(json.dumps(info, indent=4))
 
     def remove_config(self):
-        os.remove(self.path / self.config_name)
+        config_name = self.config_name
+        if not config_name.endswith('.json'):
+            config_name += '.json'
+        os.remove(self.path / config_name)
 
     def __str__(self):
         return str(self.__dict__)
