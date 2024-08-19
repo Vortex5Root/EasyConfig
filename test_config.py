@@ -61,3 +61,28 @@ def test_load_configs():
     assert config_manager.configs["test_config"].test == 'test'
     assert config_manager.configs["test_config"].test2 == 'test2'
     assert config_manager.configs["test_config"].test3 == 'test3'
+
+def test_get_config():
+    config_manager = Config_Manager('test_configs')
+    config_manager.load_configs()
+    config = config_manager.get_config('test_config')
+    assert config == config_manager.configs['test_config']
+
+def test_get_value():
+    config_manager = Config_Manager('test_configs')
+    config_manager.load_configs()
+    value = config_manager.get_value('test_config', 'test')
+    assert value == 'test'
+
+def test_set_value():
+    config_manager = Config_Manager('test_configs')
+    config_manager.load_configs()
+    config_manager.set_value('test_config', 'test', 'new_test')
+    assert config_manager.get_value('test_config', 'test') == 'new_test'
+
+def test_remove_config():
+    config_manager = Config_Manager('test_configs')
+    config_manager.load_configs()
+    config_manager.remove_config('test_config')
+    assert 'test_config' not in config_manager.configs
+    assert not (config_manager.main_path / 'test_config.json').exists()
