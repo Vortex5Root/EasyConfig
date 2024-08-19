@@ -30,8 +30,8 @@ class Config_Manager:
         return config
     
     def get_config(self, config_name: str):
-        if not config_name.endswith('.json'):
-            config_name += '.json'
+        if config_name.endswith('.json'):
+            config_name = config_name[:-5]
         if config_name in self.configs:
             return self.configs.get(config_name)
     
@@ -45,6 +45,8 @@ class Config_Manager:
             del self.configs[config_name]
 
     def get_value(self, config_name: str, key: str):
+        if config_name.endswith('.json'):
+            config_name = config_name.replace('.json', '')
         if config_name in self.configs:
             return getattr(self.configs[config_name], key)
 
@@ -55,6 +57,8 @@ class Config_Manager:
         return self.configs.keys()
     
     def set_value(self, config_name: str, key: str, value):
+        if config_name.endswith('.json'):
+            config_name = config_name.replace('.json', '')
         if config_name in self.configs:
             setattr(self.configs[config_name], key, value)
 
