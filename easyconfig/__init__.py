@@ -69,7 +69,6 @@ class Config_Manager:
                 config = Config(self.main_path, file_name)
                 config.load_config()
                 self.configs[file_name] = config
-                print(f"Loaded config {file_name}")
 
     def save_config(self, config_name: str):
         if config_name in self.configs:
