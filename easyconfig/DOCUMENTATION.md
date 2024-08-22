@@ -70,67 +70,67 @@ pip install git+https://github.com/Vortex5Root/EasyConfig.git#egg=easyconfig
 ```python
 from easyconfig import Config_Manager
 
-config = Config_Manager(working_dir="configs") # You can also pass a constume working directory
+config_handler = Config_Manager(working_dir="configs") # You can also pass a constume working directory
 ```
 
 <h3 align="center">How to add a new configuratio</h3>
 
 ```python
-config.new_config("config_name", {"key": "value"})
+config = config_handler.new_config("config_name", {"key": "value"})
 ```
 
 <h3 align="center">How to remove a configuration</h3>
 
 ```python
-config.remove_config("config_name")
+config_handler.remove_config("config_name")
 ```
 
 <h3 align="center">How to get a configuration</h3>
 
 ```python
-config.get_config("config_name")
+config_handler.get_config("config_name")
 ```
 
 <h3 align="center">How to get a value from a configuration</h3>
 
 ```python
-config.get_value("config_name", "key")
+config_handler.get_value("config_name", "key")
 ```
 
 <h3 align="center">How to get all the configurations</h3>
 
 ```python
-config.get_all_configs()
+config_handler.get_all_configs()
 ```
 
 <h3 align="center">How to get all the configuration names</h3>
 
 ```python
-config.get_all_config_names()
+config_handler.get_all_config_names()
 ```
 
 <h3 align="center">How set a value in a configuration</h3>
 
 ```python
-config.set_value("config_name", "key", "value")
+config_handler.set_value("config_name", "key", "value")
 ```
 
-<h3 align="center">How to save one the configuration</h3>
+<h3 align="center">How to save one the configuration?</h3>
 
 ```python
-config.save_config("config_name")
+config_handler.save_config("config_name")
 ```
 
-<h3 align="center">How to save all the configurations</h3>
+<h3 align="center">How to save all the configurations?</h3>
 
 ```python
-config.save_configs()
+config_handler.save_configs()
 ```
 
-<h3 align="center">How to load the configurations</h3>
+<h3 align="center">How to load the configurations?</h3>
 
 ```python
-config.load_configs()
+config_handler.load_configs()
 ```
 
 <h2 align="center">Acknowledgements</h2>
