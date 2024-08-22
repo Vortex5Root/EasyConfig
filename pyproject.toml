@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "easyconfig"
-version = "4.3.0"
+version = "4.4.0"
 description = "This project aims to simplify the process of generating and handling Json Config file"
 authors = ["Vortex5Root"]
 license = "Apachev2.0"
